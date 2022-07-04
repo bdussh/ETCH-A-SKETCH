@@ -1,0 +1,30 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: grid;
+    width: 500px;
+    height: 500px;
+    margin: 50px;
+
+}
+.square {
+    background-color: white;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+h1 {
+    margin: 25px 0 0 0;
+}
+
+.hovered{
+    background-color: black;
+}
